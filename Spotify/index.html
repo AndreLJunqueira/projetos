@@ -7,6 +7,10 @@
     <title>Página Spotify</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -17,22 +21,52 @@
                     <img src="assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Buscar</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
+        <div class="biblioteca">
+            <div class="biblioteca-conteudo">
+                <button class="biblioteca-conteudo-botao">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+            <section class="sessao-playlist">
+                <div class="sessao-playlist-conteudo">
+                    <span class="texto titulo">Crie sua primeira playlist</span>
+                    <span class="texto subtitulo">é fácil, vamos te ajudar</span>
+                    <button class="sessao-playlist-conteudo-botao">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookie">
+                <a href="">
+                    Cookies
+                </a>
+            </div>
+            <div class="lingua">
+                <button class="lingua-botao">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>

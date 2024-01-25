@@ -12,18 +12,68 @@ body {
 .sidebar-navegacao {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 8px 0 0 10px;
 }
 .sidebar-navegacao .logo {
     background: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 0 0 14px;
 }
 .sidebar-navegacao .logo img {
     width: 80px;
 }
 .sidebar nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    margin-top: 16px;
+    padding: 0 20px 10px 14px;
+}
+.sidebar ul li {
+    padding: 10px 0;
+}
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+.sidebar-navegacao .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 6px;
+}
+.biblioteca {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.biblioteca-conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+.biblioteca-conteudo-botao {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding: 20px 10px;
+}
+.biblioteca-conteudo-botao .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
 }
