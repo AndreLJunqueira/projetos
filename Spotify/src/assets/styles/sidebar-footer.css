@@ -163,16 +163,64 @@ body {
 }
 
 .foot {
-    background-image: linear-gradient(to right, rgb(246, 7, 154), rgb(0, 191, 255));
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, rgb(246, 7, 154), rgb(0, 191, 255));
     padding: 12px;
-    margin: 12px 12px 12px 0px;
-    color: #fff;
+    margin: 12px;
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .foot-conteudo {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    width: 70%;
+    margin: 0px 0px 10px 15px;
+    gap: 3px;
+    font-family: "DM Sans", sans-serif;
 }
+
+.inscrever {
+    display: flex;
+    align-items: center;
+    justify-content: end;  
+}
+
+.inscrever-botao {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 14px 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    border: 0px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.inscrever-botao span:hover {
+    font-size: 15px;
+}
+
+.foot-conteudo .titulo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.foot-conteudo .frase {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
