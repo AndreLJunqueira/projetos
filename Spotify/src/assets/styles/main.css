@@ -1,7 +1,7 @@
 /* Header */
 
 .main-conteiner {
-   max-width: 80vw; 
+    max-width: 80vw; 
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
@@ -17,15 +17,14 @@
     background-color: var(--cor-2);
 }
 
-.navegacao {
+.header-navegacao .navegacao {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.seta-esquerda {
+.header-navegacao .navegacao .seta-esquerda {
     margin-right: 1.25rem;
-
 }
 
 .seta-esquerda, .seta-direita {
@@ -43,7 +42,7 @@
 .header-pesquisa {
     display: flex;
     align-items: center;
-    width: 364px;
+    width: 30vw;
     height: 48px;
     margin-left: 8px;
     background-color: var(--cor-4);
@@ -73,7 +72,7 @@
     outline: none;
 }
 
-.subscribe {
+.header-login .subscribe {
     color: var(--cor-9);
     font-size: 16px;
     font-weight: 700;
@@ -90,4 +89,16 @@
     font-weight: 700;
     border-radius: 40px;
     border: none;
+}
+
+.header-pesquisa:hover {
+    border: 1px solid var(--cor-1);
+}
+
+.header-login .subscribe:hover {
+    transform: scale(1.04);
+}
+
+.header-login .login:hover {
+    transform: scale(1.04);
 }

@@ -204,8 +204,8 @@ body {
     cursor: pointer;
 }
 
-.inscrever-botao span:hover {
-    font-size: 15px;
+.inscrever-botao:hover {
+    transform: scale(1.04);
 }
 
 .foot-conteudo .titulo {
