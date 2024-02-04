@@ -173,7 +173,8 @@
 }
 
 /* COLOR CARDS */
-.card1 {
+
+.card1{
     background-color: rgb(0, 100, 80);
 }
 
@@ -248,4 +249,63 @@
     --column-count: 5;
     --grid-gap: 24px;
     --min-container-width: 372px;
-  }
+}
+
+.hidden {
+    display: none;
+}
+
+.grid-conteiner {
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
+}
+
+.artist-card {
+    background: #181818;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.artist-card:houver {
+    background-color: #252525;
+}
+
+.card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.artist-img{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+
+.card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
