@@ -1,2 +1,2 @@
 # projetos
- Projetos diversos aprendidos em cursos
+ Projetos diversos, em que pude aplicar o conhecimento obtido por cursos.
